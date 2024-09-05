@@ -120,7 +120,8 @@ Router(config)#ip dhcp pool POOL10
 Router(dhcp-config)#ne
 Router(dhcp-config)#network 192.168.10.0 255.255.255.0
 Router(dhcp-config)#de
-Router(dhcp-config)#default-router 192.168.10.1
+Router(dhcp-config)#default-router 192.168.10.
+
 Router(dhcp-config)#dn
 Router(dhcp-config)#dns-server 8.8.8.8
 Router(dhcp-config)#exit
